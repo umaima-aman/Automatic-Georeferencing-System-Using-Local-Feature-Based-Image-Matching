@@ -6,11 +6,11 @@ Here a system was designed to identify corresponding features between a referenc
 
 The project involves the following tasks:
 
-1. Load a reference image and ten UAV payload camera images.
+1. Load a reference image and UAV payload camera images.
 2. Develop a graphical interface for viewing the reference and aerial images.
 3. Allow users to select any pixel or target in an aerial image and record its pixel coordinates.
 4. Extract keypoints and descriptors from the reference and selected aerial images.
-5. Implement at least two different feature detection and descriptor methods.
+5. Implement different feature detection and descriptor methods.
 6. Estimate the homography matrix using RANSAC.
 7. Project selected aerial-image pixel coordinates onto the reference image.
 8. Estimate latitude and longitude through interpolation of the projected reference-image coordinates.
